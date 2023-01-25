@@ -1,0 +1,83 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acent-color: #2196f3;
+}
+/* акцент #2196F3 */
+/* головний колір тексту #212121 */
+/* вторинний колір тексту #757575 */
+/* футер #2F303A */
+/* мейл і телефон у футері rgba(255, 255, 255, 0.6 */
+/* Лого перша частина #2196F3; */
+.page {
+  background-color: rgb(62, 100, 74);
+  color: var(--primary-text-color);
+}
+.link {
+  text-decoration: none;
+}
+/* Header */
+/* Logo header */
+.logo-header {
+  color: #000000;
+}
+.logo-part {
+  color: #2196f3;
+}
+/* Site nav */
+/* Contacts header */
+.list {
+  list-style: none;
+}
+.site-nav .link,
+.contacts-header .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: var(--acent-color);
+}
+
+/* Hero section */
+.hero-title {
+  color: #ffffff;
+}
+/* Sections */
+.section {
+  color: var(--secondary-text-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+/* Features section */
+.features-list {
+  list-style: none;
+}
+.features-list .title {
+  color: var(--primary-text-color);
+}
+/* Services section */
+.services-list {
+  list-style: none;
+}
+/* Team section */
+.team-list {
+  list-style: none;
+}
+.team-list .title {
+  color: var(--primary-text-color);
+}
+/* Footer */
+/* Logo footer */
+.logo-footer {
+  color: #ffffff;
+}
+/* Adress */
+.adress-list .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-list .map-adress {
+  color: #ffffff;
+}
