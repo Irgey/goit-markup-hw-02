@@ -204,7 +204,7 @@
 .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  cursor:pointer;
+  cursor: pointer;
 }
 /* Visually hidden */
 .visually-hidden {
